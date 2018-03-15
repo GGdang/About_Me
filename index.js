@@ -1,5 +1,5 @@
-
-    const resume = new Vue({
+$(document).ready(function(){  
+        const resume = new Vue({
         el:'.resume',
         data:{
             header:{img:['images/header_bg_001.jpg','images/header_bg_002.jpg','images/header_bg_003.jpg']},
@@ -160,8 +160,6 @@
                     self.windowValue.worksY=$('#works').offset().top;
                     self.windowValue.contactY=$('#contact').offset().top;
                 });  
-
-    
             },
         mounted:function(){
             const self=this;
@@ -191,9 +189,5 @@
                 $('#contact').addClass('zoomInRight'); 
             } 
             },
-        });
-
-
-
-
-
+        });  
+});  
