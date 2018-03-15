@@ -21,12 +21,12 @@ Career
 * 個人網頁
 1. https://ggdang.github.io/About_Me/
 > 程式碼: https://github.com/GGdang/About_Me
-* 使用 Vue、JQ、css 達到畫面呈現跟RWD的製作
+* 使用 Vue、jQ、css 達到畫面呈現跟RWD的製作
 1. https://ggdang.github.io/test/
 > 程式碼: https://github.com/GGdang/test
 2. https://ggdang.github.io/test1/
 > 程式碼: https://github.com/GGdang/test1
-* 使用 Vue、JQ、Ajax 來使用Google-Map-API、News-API、OMDb&TMDb-API
+* 使用 Vue、jQ、ajax 來使用Google-Map-API、News-API、OMDb&TMDb-API
 1. https://ggdang.github.io/apiTest/
 > 程式碼: https://github.com/GGdang/apiTest
 
