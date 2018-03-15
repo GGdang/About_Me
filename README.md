@@ -18,6 +18,9 @@ Career
 * Vue框架使用
 * 略懂DataBase SQL語法
 ## 作品
+* 個人網頁
+1. https://ggdang.github.io/About_Me/
+> 程式碼: https://github.com/GGdang/About_Me
 * 使用 Vue、JQ、css 達到畫面呈現跟RWD的製作
 1. https://ggdang.github.io/test/
 > 程式碼: https://github.com/GGdang/test
