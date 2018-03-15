@@ -5,7 +5,7 @@
             header:{img:['images/header_bg_001.jpg','images/header_bg_002.jpg','images/header_bg_003.jpg']},
             fixexBar:{list:['About','Skills','Works','Contact'],connet:['#about-me','#skills','#works','#contact']},
             content:{about:['待人誠懇、工作負責','積極主動、勤於學習'],
-                     skills:{skill:['HTML/CSS/RWD','JavaScript/jQuery/Vue.js','Ajax','SQL語法','GitHub'],
+                     skills:{skill:['HTML/CSS/RWD','JavaScript/jQuery/Vue.js','ajax','SQL語法','GitHub'],
                              level:['80','70','80','60','60']},
                      works:{content:['https://ggdang.github.io/apiTest/',
                                      'https://ggdang.github.io/test/',   
