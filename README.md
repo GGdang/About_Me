@@ -1,6 +1,6 @@
 # 陳耀豪
 * Location:新北市蘆洲區
-* personal website:
+* personal website: https://ggdang.github.io/About_Me/
 * E-mail:ghost7021.hao@gmail.com
 * Mobile:0935-760-191
 Career
