@@ -1,6 +1,6 @@
 # 陳耀豪
 * Location:新北市蘆洲區
-* personal website:
+* personal website: https://ggdang.github.io/About_Me/
 * E-mail:ghost7021.hao@gmail.com
 * Mobile:0935-760-191
 Career
@@ -29,4 +29,9 @@ Career
 * 使用 Vue、jQ、ajax 來使用Google-Map-API、News-API、OMDb&TMDb-API
 1. https://ggdang.github.io/apiTest/
 > 程式碼: https://github.com/GGdang/apiTest
-
+* 使用 bootstrap 來佈局，Vue、ajax來取得opendata
+1. https://ggdang.github.io/apiTest2/
+> 程式碼: https://github.com/GGdang/apiTest2
+* 使用css排版
+1. https://ggdang.github.io/html_css/
+> 程式碼: https://github.com/GGdang/html_css
