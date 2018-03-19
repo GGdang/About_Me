@@ -29,4 +29,6 @@ Career
 * 使用 Vue、jQ、ajax 來使用Google-Map-API、News-API、OMDb&TMDb-API
 1. https://ggdang.github.io/apiTest/
 > 程式碼: https://github.com/GGdang/apiTest
+2. 
+> 程式碼:
 
