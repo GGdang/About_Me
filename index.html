@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GGdang Personal Website</title>
-    <!--bootstrao的CSS掛載-->  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--bootstrao的CSS掛載-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <!--自己的CSS掛載-->
     <link rel="stylesheet" href="index.css">
     <!--animate CSS-->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
-<body>  
+
+<body>
     <div class="resume">
+        <!--top-btn-->
         <div class="top-btn" @click="topBtn">
             <img src="images/icon/rocket_up.png" alt="top-btn">
         </div>
+        <!-- carousel -->
         <div class="header animated fadeInDown" id="header">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -46,6 +51,7 @@
                 </a>
             </div>
         </div>
+        <!--fixex-bar-->
         <div class="fixed-bar" id="fixed-bar" :class="fixedBar">
             <span>GGdang Personal Website</span>
             <ul class="list-btn" id="link-one" :style="fixedBarList">
@@ -60,9 +66,10 @@
                 </ul>
             </div>
         </div>
-        
+        <!--content-->
         <div class="content">
-            <div id="about-me" class="animated" >
+            <!--about-->
+            <div id="about-me" class="animated">
                 <div class="about-me-box ">
                     <h2>About Me</h2>
                     <img src="images/about_me.png" alt="about_me">
@@ -71,56 +78,43 @@
                     </ul>
                 </div>
             </div>
+            <!--skills-->
             <div id="skills" class="animated" :class="animate">
-                <div class="skills-box"> 
+                <div class="skills-box">
                     <h2>Skills</h2>
                     <ul>
                         <li v-for="(item,num) in content.skills.skill">
                             {{item}}
-                            <div><div class="level">{{content.skills.level[num]}}%</div></div>
+                            <div>
+                                <div class="level">{{content.skills.level[num]}}%</div>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div id="works" class="animated" >
+            <!--works-->
+            <div id="works" class="animated">
                 <div class="works-box">
                     <h2>Works</h2>
-                    <ul class="works-box-one">
+                    <ul class="works-box">
                         <li v-for="(item,num) in content.works.content">
-                            <a :href="item">
-                                <img :src="content.works.img[num]" alt="works_image" srcset="">
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="works-box-two">
-                        <li>
-                            <div class="arrow_box">
-                                <h2>使用技術</h2>
-                                <ul>
-                                    <li v-for="item in content.works.useTech.tech[1].use2">{{item}}</li>
-                                </ul>
+                            <div class="works-img">
+                                <a :href="item">
+                                    <img :src="content.works.img[num]" alt="works_image" srcset="" width="300">
+                                </a>
                             </div>
-                        </li>
-                        <li>
                             <div class="arrow_box">
                                 <h2>使用技術</h2>
                                 <ul>
-                                    <li v-for="item in content.works.useTech.tech[0].use1">{{item}}</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="arrow_box">
-                                <h2>使用技術</h2>
-                                <ul>
-                                    <li v-for="item in content.works.useTech.tech[0].use1">{{item}}</li>
+                                    <li v-for="item1 in content.works.useTech[num].use">{{item1}}</li>
                                 </ul>
                             </div>
                         </li>
                     </ul>
-                </div>               
+                </div>
             </div>
-            <div id="contact" class="animated" >
+            <!--contact-->
+            <div id="contact" class="animated">
                 <div class="contact-box">
                     <h2>Contact</h2>
                     <div class="contact-myself">
@@ -134,18 +128,22 @@
                 </div>
             </div>
         </div>
+        <!--footer-->
         <div class="footer">
             <p>Copyright © A mon All rights reserved</p>
         </div>
     </div>
-<!--jq掛載-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!--bootstrao掛載-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!--vue掛載-->
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<!--自己的JS掛載-->
-<script src="index.js"></script>
+    <!--jq掛載-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--bootstrao掛載-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!--vue掛載-->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!--自己的JS掛載-->
+    <script src="index.js"></script>
 </body>
+
 </html>

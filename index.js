@@ -8,15 +8,26 @@ $(document).ready(function(){
                      skills:{skill:['HTML/CSS/RWD','JavaScript/jQuery/Vue.js','ajax','SQL語法','GitHub'],
                              level:['80','70','80','60','60']},
                      works:{content:['https://ggdang.github.io/apiTest/',
+                                     'https://ggdang.github.io/apiTest2/',
                                      'https://ggdang.github.io/test/',   
-                                     'https://ggdang.github.io/test1/'],
+                                     'https://ggdang.github.io/test1/',
+                                     'https://ggdang.github.io/html_css/',
+                                     'https://ggdang.github.io/Bootstrap4_test1/',
+                                     ],
                             img:['images/google_map_api.jpg',
+                                 'images/openData_api_Test.jpg',
                                  'images/test_001.jpg',
-                                 'images/test1_001.jpg'],
-                            useTech:{count:'',
-                                tech:[{use1:['Vue框架','JavaScript/jQuery','HTML/CSS/RWD']},
-                                      {use2:['Vue框架','JavaScript/jQuery','ajax/串接api']}],
-                                    },
+                                 'images/test1_001.jpg',
+                                 'images/html_css_001.jpg',
+                                 'images/bootstrap4_001.jpg'],
+                            useTech:[
+                                    {use:['Vue框架','JavaScript/jQuery','ajax/串接api']},
+                                    {use:['Vue框架','JavaScript/jQuery','ajax/串接api']},
+                                    {use:['Vue框架','JavaScript/jQuery','HTML/CSS/RWD']},
+                                    {use:['Vue框架','JavaScript/jQuery','HTML/CSS/RWD']},
+                                    {use:['HTML/CSS']},
+                                    {use:['bootstrap4','HTML/CSS/RWD']},
+                                ],                               
                             },
                     },
             windowValue:{
@@ -108,7 +119,7 @@ $(document).ready(function(){
                     $('#works').css({'visibility':'visible'});
                     $('#works').addClass('zoomInLeft');
                 }
-                if(((self.windowValue.contactY-self.windowValue.scrollTop)<400)||(self.windowValue.windowX>1000&&(self.windowValue.contactY-self.windowValue.scrollTop)<500)){
+                if(((self.windowValue.contactY-self.windowValue.scrollTop)<500)||(self.windowValue.windowX>1000&&(self.windowValue.contactY-self.windowValue.scrollTop)<500)){
                     $('#contact').css({'visibility':'visible'});
                     $('#contact').addClass('zoomInRight'); 
                 } 
