@@ -47,6 +47,7 @@ $(document).ready(function(){
                 const self=this;
                 let ul_one=document.getElementById('link-one');
                 let ul_one_lis=ul_one.getElementsByTagName('li');
+                self.windowValue.contactY=$('#contact').offset().top;
                 for (let i = 0;i < ul_one_lis.length; i++) {
                     ul_one_lis[i].index = i;
                     ul_one_lis[i].onclick=function(){

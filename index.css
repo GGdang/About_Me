@@ -166,9 +166,6 @@
     line-height: 30px;
     text-align: center;
 }
-#works {
-   
-}
 .works-box{
     position: relative;
     list-style: none;
@@ -378,4 +375,15 @@
 }
 #contact{
     visibility: hidden;
+}
+.window-val{
+    width: 300px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    position: fixed;
+    z-index: 30;
+    top:50px;
+    left: 50px;
+    font-size: 20px;
 }
