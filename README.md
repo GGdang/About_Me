@@ -15,8 +15,9 @@ Career
 * 了解 Javascript 基本語法，並使用 Jquery / CSS3 呈現網頁動態效果。
 * 使用 AJAX 撈取遠端JSON資料並顯示在網頁上。
 * 介接第三方 API 設計 (Google Map、Open Data 等等)。
-* Vue框架使用
-* 略懂DataBase SQL語法
+* Vue.js框架使用。
+* 略懂scss用法。
+* 略懂DataBase SQL語法。
 ## 作品
 * 個人網頁
 1. https://ggdang.github.io/About_Me/
