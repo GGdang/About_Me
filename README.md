@@ -10,14 +10,15 @@ Career
 * 參與遊戲宣傳3D場景製作
 * 公司素材庫的素材製作
 ## 專業技能
-* photoshop 操作熟練
-* HTML5 + CSS 完成RWD頁面架構和布局；並能在不依賴 Framework 下進行 RWD 客製化，開發符合各裝置尺寸的網站建置(略懂Bootstrap)。
-* 了解 Javascript 基本語法，並使用 Jquery / CSS3 呈現網頁動態效果。
-* 使用 AJAX 撈取遠端JSON資料並顯示在網頁上。
+* photoshop 操作熟練。
+* HTML + CSS 完成RWD頁面架構和布局；並能在不依賴 Framework 下進行 RWD 客製化，開發符合各裝置尺寸的網站建置。
+* 使用Bootstrap4 做出響應式網頁。
+* 了解 Javascript 基本語法，並使用 jquery / CSS 呈現網頁動態效果。
+* 使用 AJAX 撈取遠端 JSON 資料並顯示在網頁上。
 * 介接第三方 API 設計 (Google Map、Open Data 等等)。
 * Vue.js框架使用。
-* 略懂scss用法。
-* 略懂DataBase SQL語法。
+* 了解scss的用法。
+* 使用DataBase SQL語法做資料的存取。
 ## 作品
 * 個人網頁
 1. https://ggdang.github.io/About_Me/
