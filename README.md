@@ -16,33 +16,34 @@ Career
 * 了解 Javascript 基本語法，並使用 jquery / CSS 呈現網頁動態效果。
 * 使用 AJAX 撈取遠端 JSON 資料並顯示在網頁上。
 * 介接第三方 API 設計 (Google Map、Open Data 等等)。
-* Vue.js框架使用。
+* webpack & gulp 自動化管理。
+* Vue.js & Vue-router.js & Vuex 框架使用。
 * 了解scss的用法。
-* 使用DataBase SQL語法做資料的存取。
 ## 作品
 * 個人網頁
 1. https://ggdang.github.io/About_Me/
-> 程式碼: https://github.com/GGdang/About_Me
 ***
+* 使用 webpack、Vue.js、Vue-router、Vuex、bootstrap4 製作網頁
+1. https://ggdang.github.io/webpack_SPA_01/
+***
+* 使用 gulp、jQ、scss、localStorge 製作todoList
+1. https://ggdang.github.io/jQ_todo_with_gulp/
 * 使用 Vue、jQ、css 達到畫面呈現跟RWD的製作
 1. https://ggdang.github.io/test/
-> 程式碼: https://github.com/GGdang/test
 2. https://ggdang.github.io/test1/
-> 程式碼: https://github.com/GGdang/test1
 ***
 * 使用 Vue、jQ、ajax 來使用Google-Map-API、News-API、OMDb&TMDb-API
 1. https://ggdang.github.io/apiTest/
-> 程式碼: https://github.com/GGdang/apiTest
 ***
 * 使用 bootstrap4 來佈局，Vue、ajax來取得opendata
 1. https://ggdang.github.io/apiTest2/
-> 程式碼: https://github.com/GGdang/apiTest2
 ***
 * 使用css排版
 1. https://ggdang.github.io/html_css/
-> 程式碼: https://github.com/GGdang/html_css
 ***
 * 使用 bootstrap4 製作 RWD 畫面
 1. https://ggdang.github.io/Bootstrap4_test1/
->程式碼: https://github.com/GGdang/Bootstrap4_test1
+2. https://ggdang.github.io/Bootstrap4_test2/
+3. https://ggdang.github.io/Bootstrap4_test3/
+4. https://ggdang.github.io/Bootstrap4_test4/
 ***
