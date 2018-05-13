@@ -11,7 +11,7 @@ Career
 * 公司素材庫的素材製作
 ## 專業技能
 * photoshop 操作熟練。
-* HTML + CSS 完成RWD頁面架構和布局；並能在不依賴 Framework 下進行 RWD 客製化，開發符合各裝置尺寸的網站建置。
+* HTML + CSS 完成 RWD 頁面架構和布局；並能在不依賴 Framework 下進行 RWD 客製化，開發符合各裝置尺寸的網站建置。
 * 使用Bootstrap4 做出響應式網頁。
 * 了解 Javascript 基本語法，並使用 jquery / CSS 呈現網頁動態效果。
 * 使用 AJAX 撈取遠端 JSON 資料並顯示在網頁上。
