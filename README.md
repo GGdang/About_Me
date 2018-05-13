@@ -28,6 +28,13 @@ Career
 ***
 * 使用 gulp、jQ、scss、localStorge 製作todoList
 1. https://ggdang.github.io/jQ_todo_with_gulp/
+***
+* 使用 bootstrap4 製作 RWD 畫面
+1. https://ggdang.github.io/Bootstrap4_test1/
+2. https://ggdang.github.io/Bootstrap4_test2/
+3. https://ggdang.github.io/Bootstrap4_test3/
+4. https://ggdang.github.io/Bootstrap4_test4/
+***
 * 使用 Vue、jQ、css 達到畫面呈現跟RWD的製作
 1. https://ggdang.github.io/test/
 2. https://ggdang.github.io/test1/
@@ -40,10 +47,4 @@ Career
 ***
 * 使用css排版
 1. https://ggdang.github.io/html_css/
-***
-* 使用 bootstrap4 製作 RWD 畫面
-1. https://ggdang.github.io/Bootstrap4_test1/
-2. https://ggdang.github.io/Bootstrap4_test2/
-3. https://ggdang.github.io/Bootstrap4_test3/
-4. https://ggdang.github.io/Bootstrap4_test4/
 ***
